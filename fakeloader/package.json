@@ -10,7 +10,7 @@
   "devDependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "serve": "^10.0.0"
+    "serve": "6.5.8"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",
@@ -55,7 +55,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "PUBLIC_URL=http://localhost:5000 node scripts/build.js",
-    "serve": "serve build/",
+    "serve": "serve --cors build/",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
