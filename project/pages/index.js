@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 import Page from "../components/page";
 import Layout from "../components/layout";
-import FakeLoader from "fakeloader";
+import Widget from "widget";
 
 export default class extends Page {
   render() {
@@ -69,7 +69,7 @@ export default class extends Page {
           </Container>
         </Jumbotron>
         <Container>
-          <FakeLoader />
+          <Widget />
           <p className="text-muted small">
             * This project is not associated with Next.js or Zeit.
           </p>

@@ -61,7 +61,7 @@ module.exports = {
     // The build folder.
     path: paths.appBuild,
     filename: "main.js",
-    library: "fakeloader",
+    library: "widget",
     libraryTarget: "umd",
     // We inferred the "public path" (such as / or /my-project) from homepage.
     publicPath: publicPath,
