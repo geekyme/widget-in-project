@@ -1,4 +1,4 @@
-This project is a POC to show debug problems of importing a widget with its assets
+This project is a POC to show how to import a widget with its assets
 
 1. `git clone`
 
@@ -6,4 +6,4 @@ This project is a POC to show debug problems of importing a widget with its asse
 
 3. `cd nextjs-starter; npm install; npm link fakeloader; npm run dev;`
 
-4. Visit browser at `http://localhost:3000`. You should see fakeloader's content in the main app ("...Welcome to React..."), but missing its dependencies like stylesheets and logo.svg
+4. Visit browser at `http://localhost:3000`. Widget's assets like svg will point to the widget file server. Widget will also automatically load its own css.
